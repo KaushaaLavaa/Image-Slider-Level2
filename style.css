@@ -168,8 +168,47 @@ body{
         right: 1rem;
     }
     .close{
-         position: absolute; 
+        position: absolute; 
         top: 20rem;
+        right: 50px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+
+    }
+}
+
+
+@media(max-width: 412px){
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    .page-header{
+        flex-direction: column;
+        margin: 2rem;
+    }
+    #logo{
+        padding-left: 4rem;
+        width: 50%;
+        height: 20vh;
+    }
+    .project-title{
+        font-size: 52px;
+        text-align: center;
+    }
+    .carousel-slide{
+        height: calc(100vh - 319px);
+    }
+    .popup-content{
+        margin: 22% 1% 5% 5%;
+        width: 80%;
+        left: 1rem;
+        right: 1rem;
+    }
+    .close{
+        position: absolute; 
+        top: 15rem;
         right: 50px;
         font-size: 30px;
         color: white;
