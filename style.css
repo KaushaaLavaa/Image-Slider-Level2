@@ -168,8 +168,8 @@ body{
         right: 1rem;
     }
     .close{
-        /* position: absolute; */
-        top: 30px;
+         position: absolute; 
+        top: 50px;
         right: 50px;
         font-size: 30px;
         color: white;
