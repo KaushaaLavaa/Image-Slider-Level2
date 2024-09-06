@@ -169,7 +169,7 @@ body{
     }
     .close{
         /* position: absolute; */
-        top: 15rem;
+        top: 12rem;
         right: 50px;
         font-size: 30px;
         color: white;
